@@ -1,0 +1,26 @@
+.weui-comment-reply .nickname::before{
+    background-color: #009688 !important;
+}
+.weui-btn_primary{
+    background-color:#009688 !important;
+}
+
+.f-myora {
+    color:#009688 !important;
+}
+.weui-btn_warn{
+    background-color: #009688 !important;
+}
+
+.bgzhuti{
+    background-color: #009688 !important;
+}
+.weui-navigator-list li.weui-state-hover, .weui-navigator-list li.weui-state-active a{
+    color: #009688 !important;
+}
+.weui-navigator-list li.weui-state-hover, .weui-navigator-list li.weui-state-active a:after{
+    background-color: #009688;
+}
+.bgcor{
+    background-color: #009688 !important;
+}

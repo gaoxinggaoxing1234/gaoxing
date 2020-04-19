@@ -1,0 +1,73 @@
+ul{
+    margin-top: .133333rem;
+}
+.itemcre{
+    display: inline-block;
+    width:9.226667rem;
+    height:3.28rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px .213rem 0px rgba(0,0,0,0.15);
+    border-radius:.16rem;
+    box-sizing: border-box;
+    padding-top:.426667rem;
+    padding-left: .4rem;
+    margin-bottom: .32rem;
+    
+    }
+
+.itemcre img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5px;
+
+}
+
+.itemcre .up{
+    position: relative;
+    padding-bottom: .466667rem;
+    border-bottom: .026667rem solid #EBEBEB;
+    padding-top: .1rem;
+}
+.itemcre .right{
+    float: right;
+    padding-left: .133333rem;
+    padding-right: .266667rem;
+    background:linear-gradient(225deg,rgba(250,138,98,1) 0%,rgba(244,82,51,1) 100%);
+    border-radius:3.2rem 2.666667rem 2.666667rem 0px;
+    font-size: .293333rem;
+    color:#fff;
+    margin-top: .6rem;
+    margin-right: .4rem;
+    }
+    .itemcre .up .text{
+       position: absolute;
+       top:.222222rem;
+       left:1.233333rem;
+    }
+.itemcre .up p h3{
+    font-size: .4rem!important;
+    color:#444;
+}
+.tagscre{
+    display: block;
+    padding:.12rem .2rem;
+}
+.tagscre span{
+display: inline-block;
+background:rgba(255,255,255,1);
+font-size: .293333rem;
+padding:0 .133333rem;
+height:.533333rem;
+line-height: .533333rem;
+background:rgba(234,255,244,1);
+color:#FF6666;
+border-radius:.08rem;
+text-align: center;
+}
+.tagscre span:nth-child(1){
+    color: #FF7000;
+    background:rgba(255,245,213,1);
+}
+a:active{
+    color:#989898;
+}

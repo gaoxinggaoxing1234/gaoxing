@@ -1,0 +1,70 @@
+ul{
+    margin-top: .133333rem;
+}
+.itemdai{
+display: inline-block;
+width:9.226667rem;
+height:auto;
+background:rgba(255,255,255,1);
+box-shadow:0px 0px .213rem 0px rgba(0,0,0,0.15);
+border-radius:.16rem;
+box-sizing: border-box;
+padding-top:.426667rem;
+margin-bottom: .32rem;
+
+}
+.itemdai p {
+    color:#344554;
+    padding-left: .6rem;
+}
+.itemdai p img{
+    width:.693333rem;
+    height: .693333rem;
+    vertical-align: middle;
+    margin-right: .13rem;
+    border-radius: 5px;
+}
+.itemdai div{
+    border-bottom: .026667rem solid #EBEBEB;
+    padding: .213333rem .4rem;
+   
+}
+.itemdai .price{
+    color:#444;
+    font-size: .533333rem;
+    margin-right: .106667rem;
+}
+.itemdai i{
+    font-size: .32rem;
+}
+.itemdai .right{
+float: right;
+padding: .1rem .26rem .1rem .133rem;
+background:linear-gradient(225deg,rgba(250,138,98,1) 0%,rgba(244,82,51,1) 100%);
+border-radius:3.2rem 2.666667rem 2.666667rem 0px;
+font-size: .293333rem;
+color:#fff;
+}
+.tagsdai{
+    display: block;
+    padding:.12rem .4rem;
+}
+.tagsdai span{
+display: inline-block;
+background:rgba(255,255,255,1);
+font-size: .293333rem;
+padding:.026667rem .133333rem;
+height:.533333rem;
+line-height: .533333rem;
+background:rgba(255,245,213,1);
+border-radius:.08rem;
+color: #FF7000;
+text-align: center;
+}
+.tagsdai span:nth-child(2){
+    color:#FF6666;
+    background:rgba(234,255,244,1);
+}
+a:active{
+    color:#989898;
+}

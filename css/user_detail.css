@@ -1,0 +1,124 @@
+body{
+    background-color: #f5f5f5;
+}
+.head-pic{
+position: absolute;
+top: 0;
+left: 0;
+width: 92%;
+background:linear-gradient(142deg,rgba(254,180,63,1) 0%,rgba(254,132,51,1) 100%);
+box-shadow:0 0 .4rem 0 rgba(246,98,0,0.45);
+border-radius:.213333rem;
+margin:.4rem .4rem 0 .4rem;
+padding:.64rem 0 .693333rem;
+color: #fff;
+text-align: center;
+font-size: .32rem;
+box-sizing: border-box;
+}
+.head-pic h3{
+    font-size: .8rem;
+    margin: .133333rem;
+}
+.route-box{
+    padding:4rem .4rem 1.6rem;
+}
+.route-item{
+    background-color: #fff;
+    border-radius:16px;
+    margin-bottom: .32rem;
+}
+.route-item .first-item{
+    display: flex;
+    justify-content: space-between;
+    padding: .933333rem .24rem .533333rem .64rem;
+    font-size: .266667rem;
+}
+.route-item .first-item li{
+    position: relative;
+    flex:32%;
+    color: #666;
+}
+.route-item .first-item li:last-child{
+    flex:4%;
+}
+
+.route-item .first-item li:first-child{
+    margin-left: 0;
+}
+.route-item .first-item li span{
+    display: inline-block;
+    width: 1.6rem;
+}
+.route-item .img-box{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin-bottom: .066667rem;
+}
+.route-item .img-box img{
+    width: 100%;
+    height: 100%;
+    margin-left: .033333rem;
+}
+.dot-box{
+    position: absolute;
+    top:-0.2rem;
+    left:1.333333rem;
+    font-size: 1rem;
+    color:#f1f1f1;
+    width: .933333rem;
+}
+.route-item .item{
+    position: relative;
+    height: 100%;
+    padding:.6rem 1.093333rem;
+
+}
+.route-item .item h3{
+position: absolute;
+top:0;
+padding:.133333rem .373333rem;
+background:rgba(255,245,213,1);
+border-radius:0 0 .346667rem .346667rem;
+font-size:.426667rem;
+color:rgba(255,112,0,1);
+left: 50%;
+transform: translateX(-50%)
+}
+.list-item{
+    font-size: .346667rem;
+    margin-top: .56rem;
+}
+.list-item li{
+    position: relative;
+    padding-left: .8rem;
+    margin-bottom: .2rem;
+}
+.list-item li::before{
+    position: absolute;
+    top:-.5rem;
+    left: 0;
+    content: '·';
+    font-size:1rem;
+    margin-right:.8rem;
+    vertical-align: middle;
+}
+.foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.6rem;
+    background-color: #fff;
+    padding:.293333rem .4rem;
+    box-sizing: border-box;
+}
+.foot .now-apply{
+    width: 100%;
+    height: 1.013333rem;
+    background:#FF6666;
+    border-radius:38px;
+    border:none;
+    color: #fff;
+    font-size: .4rem;
+}
